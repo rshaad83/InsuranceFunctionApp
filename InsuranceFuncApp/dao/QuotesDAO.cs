@@ -15,7 +15,7 @@ namespace InsuranceFuncApp.dao
 
             builder.DataSource = "fdchackathon.database.windows.net";
             builder.UserID = "hackadmin";
-            builder.Password = "H@ckathon";
+            builder.Password = "<enter_password>";
             builder.InitialCatalog = "carddb";
             connection = new SqlConnection(builder.ConnectionString);
             return connection;
